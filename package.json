@@ -1,26 +1,29 @@
 {
-  "name": "postcss-shopify-settings-variables",
-  "version": "0.1.4",
+  "name": "postcss-shopify-liquid-expander",
+  "version": "0.0.1",
   "description": "[PostCSS] plugin for setting variable in shopify css file.",
   "keywords": [
+    "Indiana Jones",
+    "Face Melting",
+    "Coco Butter",
     "postcss",
     "css",
     "postcss-plugin",
     "shopify",
     "liquid"
   ],
-  "author": "bit3725 <bit3725@gmail.com>",
+  "author": "joesgithub",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bit3725/postcss-shopify-settings-variables.git"
+    "url": "https://github.com/bvaccel/postcss-shopify-liquid-expander.git"
   },
   "bugs": {
-    "url": "https://github.com/bit3725/postcss-shopify-settings-variables/issues"
+    "url": "https://github.com/bvaccel/postcss-shopify-liquid-expander/issues"
   },
-  "homepage": "https://github.com/bit3725/postcss-shopify-settings-variables",
+  "homepage": "https://github.com/bvaccel/postcss-shopify-liquid-expander",
   "dependencies": {
-    "postcss": "^4.1.13"
+    "postcss": "^5.0.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
