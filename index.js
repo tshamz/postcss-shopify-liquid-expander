@@ -18,7 +18,7 @@ module.exports = postcss.plugin('postcss-shopify-settings-variables',
                     node.value = node.value
                         .replace(/^([^\$]*)(\$\()([^\)]+)(\))(.*)$/,
                             function(match, $1, $2, $3, $4, $5) {
-                                return $1 + '{{ settings.' + $3 + ' }}' + $5;
+                                return $1 + '{{ ' + $3 + ' }}' + $5;
                             });
                 }
             }
